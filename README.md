@@ -1,2 +1,3 @@
-# web-analyst-cv-ukrsibbank
- Web-analyst CV Ukrsibbank
+# cv-frontend
+
+CV Frontend developer Ihor Mokrov

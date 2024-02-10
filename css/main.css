@@ -445,7 +445,7 @@ body {
   padding-top: 44px;
   padding-right: 44px;
   padding-left: 44px;
-  min-width: 360px;
+  max-width: 448px;
   min-height: 100%;
 }
 
