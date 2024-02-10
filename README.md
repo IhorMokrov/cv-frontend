@@ -1,2 +1,2 @@
-# cv-frontend
- CV Frontend developer Ihor Mokrov
+# web-analyst-cv-ukrsibbank
+ Web-analyst CV Ukrsibbank
