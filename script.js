@@ -14,7 +14,7 @@
       }
 
       button.dataset.toggle = 'uk';
-      button.textContent = 'go Enlish';
+      //   button.textContent = 'go Enlish';
     } else {
       for (const elem of ukTextElements) {
         elem.style.display = 'none';
@@ -24,7 +24,7 @@
       }
 
       button.dataset.toggle = 'en';
-      button.textContent = 'читати українською';
+      //   button.textContent = 'читати українською';
     }
   });
 })();
