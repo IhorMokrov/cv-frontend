@@ -1,0 +1,22 @@
+.change-language {
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  font-size: 22px;
+  color: $text-green;
+  text-align: end;
+  text-decoration: underline;
+
+  background-color: white;
+  border: none;
+}
+
+.change-language:hover {
+  //   scale: 1.1;
+  background-color: $icons-green;
+  color: white;
+
+  cursor: pointer;
+}

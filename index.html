@@ -8,19 +8,45 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+    <button class="change-language" type="button" data-toggle="en">
+      читати українською
+    </button>
     <div class="wrapper">
       <div class="main-content">
         <div class="hero">
-          <h1 class="hero__name">Ігор Мокров</h1>
+          <h1 class="hero__name">
+            <span class="uk">Ігор Мокров</span>
+            <span class="en">Ihor Mokrov</span>
+          </h1>
           <h2 class="hero__position">Frontend developer</h2>
-          <p class="hero__text"></p>
+          <p class="hero__text">
+            <span class="en">
+              Hello! Before we start, let me shortly introduce myself. I'm
+              studying Frontend technologies and can now create landing pages or
+              multipage websites with responsive and adaptive design from start
+              to end. I also have useful work experience from my previous jobs
+              in analytical and consecutive thinking, which helps me perform my
+              best. If I don't know the solution, I will find it.</span
+            >
+            <span class="uk">
+              Вітаю! Дозвольте коротко розказати про себе. Я вивчаю Frontend і
+              на даний час вмію створювати landing-pages та багатосторінкові
+              веб-сайти з адаптивним або респонсів дизайном від початку до
+              кінця. Маю корисний досвід роботи з попередніх посад, де я
+              розвинув аналітичне та послідовне мислення. Це допомагає мені
+              досягати кращих результатів у теперішніх проектах. Мій досвід - це
+              інструменти, з якими я можу вирішити будь-яке завдання.
+            </span>
+          </p>
 
           <div class="contacts">
-            <a class="contacts__item" href="mailto:i.mokrov89@gmail.com"
+            <a
+              class="contacts__item"
+              href="mailto:ihor.mokrov.contact@gmail.com"
               ><svg class="contacts__icon" width="30" height="30">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
-              i.mokrov89@gmail.com</a
+              ihor.mokrov.contact@gmail.com</a
             >
             <a class="contacts__item" href="tel:+380506493201" type="tel"
               ><svg class="contacts__icon" width="30" height="30">
@@ -30,7 +56,7 @@
             <span class="contacts__item"
               ><svg class="contacts__icon" width="30" height="30">
                 <use href="./images/icons.svg#icon-location"></use></svg
-              >Київ, Україна</span
+              ><!-- Київ, Україна -->Kyiv, Ukraine</span
             >
 
             <a class="contacts__item" href="https://t.me/ihormokrov"
@@ -53,7 +79,10 @@
               <use href="./images/icons.svg#icon-mark"></use>
             </svg>
             <!-- <h3 class="section-title">WORK EXPERIENCE</h3> -->
-            <h3 class="section-title">ДОСВІД РОБОТИ</h3>
+            <h3 class="section-title">
+              <span class="uk">ДОСВІД РОБОТИ</span
+              ><span class="en">WORK EXPERIENCE</span>
+            </h3>
           </div>
 
           <div class="job__container section-title__job__container pet-project">
@@ -65,38 +94,48 @@
             </p>
             <ul class="job__skills-list">
               <li class="job__skill-item">
-                Індивідуальний пет-проект для демонстрації варіанту
+                <!-- Індивідуальний пет-проект для демонстрації варіанту
                 багатосторінкового веб-сайту з адаптивною версткою, розробленого
-                на базі BEM-методології та мобільно-орієнтованої версії.
+                на базі BEM-методології та мобільно-орієнтованої версії. -->
+
+                An individual pet project demonstrating a multi-page website
+                with responsive design, developed using the BEM methodology and
+                optimized for mobile devices.
               </li>
             </ul>
           </div>
 
           <div class="job__container section-title__job__container">
-            <!-- <h4 class="job__title">Canadian freelance market</h4> -->
-            <h4 class="job__title">Проєктна робота (freelance, Канада)</h4>
+            <h4 class="job__title">Canadian freelance projects</h4>
+            <!-- <h4 class="job__title">Проєктна робота (freelance, Канада)</h4> -->
             <p class="job__position">
-              <!-- AI-powered researcher and content writer -->
-              Спеціаліст по залученню інструментів ШІ для дослідження
-              життєздатності стартапів
+              AI-powered researcher and content writer
+              <!--        Спеціаліст по залученню інструментів ШІ для дослідження
+              життєздатності стартапів -->
             </p>
             <p class="job__duration">2022 - 2024 (2 роки)</p>
             <ul class="job__skills-list">
               <li class="job__skill-item">
-                Дослідження технічної концепції стартапів за допомогою
-                інструментів ШІ
+                Researching the technical concepts of startups using AI tools.
+                <!--      Дослідження технічної концепції стартапів за допомогою
+                інструментів ШІ -->
               </li>
               <li class="job__skill-item">
-                Написання технічної документації із детальним життєвим циклом
-                винаходу
+                Writing technical documentation with a detailed invention
+                lifecycle.
+                <!-- Написання технічної документації із детальним життєвим циклом винаходу -->
               </li>
             </ul>
           </div>
 
           <div class="job__container section-title__job__container">
-            <h4 class="job__title">АТ "IR Bank"</h4>
+            <h4 class="job__title">
+              <!-- АТ "IR Bank" -->
+              IR Bank
+            </h4>
             <p class="job__position">
-              Головний спеціаліст відділу фінансового контролю
+              <!-- Головний спеціаліст відділу фінансового контролю -->
+              Senior Specialist, Financial Control Department
             </p>
             <p class="job__duration">2016 - 2022 (6 років)</p>
             <ul class="job__skills-list">
@@ -255,5 +294,6 @@
         </ul>
       </aside>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -271,12 +271,17 @@ a:hover {
   background-color: rgb(68, 147, 153);
 }
 
+.uk {
+  display: none;
+}
+
 body {
   padding-top: 10px;
   padding-bottom: 12px;
 }
 
 .wrapper {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -295,6 +300,7 @@ body {
 }
 
 .main-content {
+  width: 100%;
   padding-top: 40px;
   padding-right: 32px;
   padding-bottom: 80px;
@@ -506,4 +512,24 @@ body {
   line-height: 18px;
   font-weight: 400;
   font-style: italic;
+}
+
+.change-language {
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  font-size: 22px;
+  color: rgb(68, 147, 153);
+  text-align: end;
+  text-decoration: underline;
+  background-color: white;
+  border: none;
+}
+
+.change-language:hover {
+  background-color: rgb(68, 147, 153);
+  color: white;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
