@@ -518,20 +518,39 @@ body {
 .change-language {
   position: absolute;
   display: block;
+  width: 76px;
+  height: 30px;
   top: 0;
   right: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translate(-4px, 4px);
+          transform: translate(-4px, 4px);
   font-size: 22px;
   color: rgb(68, 147, 153);
-  text-align: end;
-  text-decoration: underline;
   background-color: rgba(255, 255, 255, 0);
   border: none;
 }
 
+.uk.button {
+  width: 90%;
+  height: 90%;
+  background-image: url(../images/uk.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: end;
+}
+
+.en.button {
+  display: block;
+  width: 90%;
+  height: 90%;
+  background-image: url(../images/en.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: end;
+}
+
 .change-language:hover {
-  background-color: rgb(68, 147, 153);
-  color: white;
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
