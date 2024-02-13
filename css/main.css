@@ -452,7 +452,7 @@ body {
   padding-top: 44px;
   padding-right: 44px;
   padding-left: 44px;
-  max-width: 448px;
+  max-width: 370px;
   min-height: 100%;
 }
 
@@ -491,6 +491,12 @@ body {
   color: rgb(255, 255, 255);
   background-color: #989da6;
   border-radius: 6px;
+}
+
+.skills-br {
+  display: block;
+  width: 100%;
+  height: 18px;
 }
 
 .languages-list {
