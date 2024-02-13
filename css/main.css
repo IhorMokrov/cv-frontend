@@ -559,4 +559,16 @@ body {
 
 .change-language:hover {
   cursor: pointer;
+}
+
+@media print {
+  body {
+    padding: 0;
+  }
+  .wrapper {
+    border: none;
+  }
+  .change-language {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
