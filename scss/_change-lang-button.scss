@@ -1,17 +1,20 @@
 .change-language {
-  width: 100%;
-  max-width: 1400px;
+  //   width: 120%;
+  //   max-width: 1400px;
   position: absolute;
   display: block;
   top: 0;
   right: 0;
+  transform: translateX(100%);
   font-size: 22px;
   color: $text-green;
   text-align: end;
   text-decoration: underline;
 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   border: none;
+
+  //   outline: 4px solid red;
 }
 
 .change-language:hover {
